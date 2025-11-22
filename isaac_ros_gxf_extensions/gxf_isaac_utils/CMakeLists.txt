@@ -29,6 +29,7 @@ ament_auto_find_build_dependencies()
 find_package(CUDAToolkit REQUIRED)
 find_package (Eigen3 3.3 REQUIRED NO_MODULE)
 find_package(yaml-cpp)
+find_package(magic_enum REQUIRED)
 
 # Import the original Isaac's utils extension as library
 add_library(libgxf_utils SHARED IMPORTED)
